@@ -1,0 +1,61 @@
+# --- Node Modules (frontend and backend) ---
+**/node_modules/
+
+# --- Logs ---
+**/*.log
+**/logs/
+**/*.pid
+**/*.seed
+**/*.pid.lock
+
+# --- Builds / Outputs ---
+**/dist/
+**/build/
+**/.next/
+**/out/
+**/.turbo/
+**/.cache/
+**/.temp/
+**/.tmp/
+**/export/
+
+# --- Environments ---
+**/.env
+**/.env.*
+!.env.example
+
+# --- Docker ---
+Dockerfile
+.dockerignore
+docker-compose.yml
+docker-compose.override.yml
+docker-compose*.yml
+**/docker-data/
+**/.container-data/
+**/docker-logs/
+
+# --- Version Control ---
+.git
+
+# --- OS & Editor files ---
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- Testing ---
+**/coverage/
+
+# --- Vercel ---
+**/.vercel/
+
+# --- Prisma (if used in backend) ---
+**/prisma/migrations/
+
+# --- Archives / Compression ---
+*.tgz
+*.tar.gz
+*.zip
