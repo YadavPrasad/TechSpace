@@ -21,7 +21,7 @@ export default function Home() {
             .
           </li>
           <li className="tracking-[-.01em]">
-            This won't have auto reload feature by the way, since this is docker and i don't know how to use it properly you will have to reload the page [on browser] manually sorry.
+            This won't have auto reload feature by the way (you will have to suffer..), since this is docker and i don't know how to use it properly you will have to reload the page [on browser] manually sorry.
           </li>
         </ol>
 
@@ -47,7 +47,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Can't reload aat all
+            Can't reload at all
           </a>
         </div>
       </main>
